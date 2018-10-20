@@ -262,7 +262,7 @@ footer .heading{}
 /* footer */    
 
 .service-charge{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .service-charge .heading{
@@ -330,7 +330,8 @@ padding: 10px 10px;
 
 /* about-us page*/
 .about-us{
-    padding-top: 120px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 .about-us .heading{
     padding-bottom: 15px;
@@ -354,7 +355,7 @@ padding: 10px 10px;
 /* about-us page */
 
 /* doctor-section */
-.doctor-section{padding-bottom: 40px;padding-top: 40px;}
+.doctor-section{padding-bottom: 40px;padding-top: 0;}
 .doctor-section .heading{
     padding-bottom: 20px;
     padding-top: 90px;
@@ -436,7 +437,7 @@ transition: .5s ease;
 
 /* our-service-page */
 .our-service-page{
-    padding-top: 120px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .our-service-page .heading{}
@@ -473,7 +474,7 @@ overflow: hidden;
     
 }
 .gallery{
-    padding-top: 100px !important;
+    padding-top: 50px !important;
     padding-bottom: 20px;
 }
 .gallery .heading{
@@ -604,7 +605,7 @@ padding: 10px 10px;
 }
 /*custom class end*/
 .bangla-article{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .bangla-article .heading{
@@ -612,16 +613,75 @@ padding: 10px 10px;
 }
 
 .english-article{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .english-article .heading{
     padding-bottom: 20px;
 }
 .faq{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .faq .heading{
     padding-bottom: 15px;
 }
+/*contac-us*/
+.contac-us{
+     background: url(../images/123.png) no-repeat;
+     background-size: cover;
+     height: auto;
+     /* padding: 120px 0; */
+     padding-bottom: 40px;
+     padding-top: 50px;
+}
+.contac-us h1{
+    color: red;
+    margin-bottom: : -3px;
+    padding-top: 50px;
+    margin-bottom: -5px;
+}
+.mail-form{
+    padding-left: 0!important;
+    max-width: 100%!important;
+    margin-bottom: 5px;
+
+}
+.btn-custom{
+    background-color: red;
+    border-color: red;
+    color: white;
+
+}
+.btn-custom:hover{
+    color: white;
+    background: red;
+}
+.messag-box{
+    padding-left: 0!important;
+    max-width: 100%!important;
+
+
+}
+.adress{
+    padding: 0 auto;
+    padding-top: 100px;
+    position: relative;
+}
+.adress span{
+    
+border-left: 2px solid red;
+    
+top: 50%;
+    
+height: 150px;
+    
+position: absolute;
+    
+width: 10px;
+    
+left: 21px;
+    
+right: 0px;
+}
+/*contac-us*/
