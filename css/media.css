@@ -3,8 +3,9 @@
        body{
     margin: 0;
     padding: 0;
+    width: 127%;
     background: white;
-	}
+ }
 
 /* logo section */
 .logo-size{
@@ -28,7 +29,7 @@ header{
 
 /* header menu */
 .header-section{
-    width: 408px;
+    width: 127%;
 }
 .home-menu{color: white;}
 .home-menu ul{}
@@ -97,9 +98,6 @@ header{
 }
 
 .heading h1{
-    text-align: center;
-    margin: 0px 0;
-    font-size: 35px;
 }
 .heading span{
     height: 3px;
@@ -239,11 +237,7 @@ margin: 0 0px;
 
 /* footer */
 footer{
-    /* border-top: 1px solid red; */
-    background: #000000a6;
-    padding-top: 15px;
-    padding-bottom: 0px;
-    width: 408px;
+    width: 127%;
 }
 footer .heading{}
 .footer-content{color: white;padding-bottom: 40px;}
@@ -681,6 +675,7 @@ padding: 10px 10px;
 .bangla-article{
     padding-top: 30px;
     padding-bottom: 50px;
+    width: 127%;
 }
 .bangla-article .heading{
     padding-bottom: 15px;
@@ -1461,10 +1456,7 @@ padding: 10px 10px;
     padding-top: 50px;
 }
 /*custom class end*/
-.bangla-article{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+.bangla-article{padding-top: 35px;}
 .bangla-article .heading{
     padding-bottom: 15px;
 }
