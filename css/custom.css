@@ -262,7 +262,7 @@ footer .heading{}
 /* footer */    
 
 .service-charge{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .service-charge .heading{
@@ -299,7 +299,14 @@ footer .heading{}
     display: inline-block;
     margin: 0 auto;
 }
-
+.gallery-img:hover{
+    border: none;
+    box-shadow: none;
+}
+.gallery-img img:hover{
+    height: 100%;
+    width: 100%;
+}
 .gallery-img{
 
 margin: 12px 0;
@@ -330,8 +337,7 @@ padding: 10px 10px;
 
 /* about-us page*/
 .about-us{
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 120px;
 }
 .about-us .heading{
     padding-bottom: 15px;
@@ -355,7 +361,7 @@ padding: 10px 10px;
 /* about-us page */
 
 /* doctor-section */
-.doctor-section{padding-bottom: 40px;padding-top: 0;}
+.doctor-section{padding-bottom: 40px;padding-top: 40px;}
 .doctor-section .heading{
     padding-bottom: 20px;
     padding-top: 90px;
@@ -437,7 +443,7 @@ transition: .5s ease;
 
 /* our-service-page */
 .our-service-page{
-    padding-top: 50px;
+    padding-top: 120px;
     padding-bottom: 50px;
 }
 .our-service-page .heading{}
@@ -474,7 +480,7 @@ overflow: hidden;
     
 }
 .gallery{
-    padding-top: 50px !important;
+    padding-top: 100px !important;
     padding-bottom: 20px;
 }
 .gallery .heading{
@@ -605,7 +611,7 @@ padding: 10px 10px;
 }
 /*custom class end*/
 .bangla-article{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .bangla-article .heading{
@@ -613,14 +619,14 @@ padding: 10px 10px;
 }
 
 .english-article{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .english-article .heading{
     padding-bottom: 20px;
 }
 .faq{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .faq .heading{
@@ -630,10 +636,8 @@ padding: 10px 10px;
 .contac-us{
      background: url(../images/123.png) no-repeat;
      background-size: cover;
-     height: auto;
-     /* padding: 120px 0; */
-     padding-bottom: 40px;
-     padding-top: 50px;
+     height: 100vh;
+     padding: 120px 0;
 }
 .contac-us h1{
     color: red;
