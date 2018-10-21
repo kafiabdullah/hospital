@@ -25,6 +25,8 @@ header{
 /* header images */
 
 /* header menu */
+.dropdown-menu{
+}
 .header-section{}
 .home-menu{color: white;}
 .home-menu ul{}
@@ -46,14 +48,40 @@ header{
     margin-top: -10px;
 }
 .home-menu ul li a img:hover{}
-.dropdown-menu{
-    border: none;
-    background: transparent;
+.home-menu ul li ul{
+    position: absolute;
+    margin-top: 20px;
+    background: #f8f9fa;
+    opacity: 0;
+    visibility: hidden;
+    left: 300px;
+    transition: all .5s ease;
+    display: none;
 }
-.dropdown-menu a{
-    text-align: center;
-    margin: 0 0px !important;
+/* .home-menu ul li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
+.home-menu ul li ul li{
+    clear: both;
+    width: 100%;
+}
+.home-menu ul li ul li a:hover{}
+.home-menu ul li ul li a{list-style: none;text-decoration: none;margin: 0 0;} */
+ .dropdown{
+}
+  .dropdown .dropdown-menu{
+    position: absolute !important;
+    top: 60px;
+    background: #f8f9fa;
+}
+  .dropdown .dropdown-menu .dropdown-item{
+    margin: -9px 0;
+    line-height: 2;
+}
+  .dropdown .dropdown-menu .dropdown-item a{}
+
 .helpline{}
 .helpline img{
     width: 165px;
@@ -336,35 +364,62 @@ padding: 10px 10px;
 /*custom class end*/            
 
 /* about-us page*/
+.bot-content-section{
+}
+.advisor-content-section{
+}
+.adv-content{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.adv-content h2{
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.adv-content p{
+    margin: 10px 10px;
+}
+.adv-content  .ptext{}
+.adv-content span{
+    position: absolute;
+    border-right: 2px solid red;
+    height: 180px;
+    top: 0;
+    left: 0;
+    right: 10px;
+}
 .about-us{
-    padding-top: 120px;
+    padding-top: 40px;
+    padding-bottom: 0;
 }
 .about-us .heading{
     padding-bottom: 15px;
 }
 .bot-section{
-    padding: 40px 0;
+    padding-bottom: 30px;
 }
-.bot-section .heading{
-    padding-bottom: 25px;
-}
+.bot-section .heading{padding-bottom: 20px;}
 .bot-content{
-    border-right: 2px solid red;
+    float: left;
+    width: 50%;
+    position: relative;
 }
 .bot-content::after{}
 .bot-content h2{
     font-size: 20px;
+    margin: 0 10px;
 }
-.bot-content p{}
-.bot-content span{
+.bot-content p{
+    margin: 10px 10px;
 }
+.bot-content span{position: absolute;top: 0;height: 100px;border-right: 2px solid red;/* left: 0px; */right: 15px;}
 /* about-us page */
 
 /* doctor-section */
 .doctor-section{padding-bottom: 40px;padding-top: 40px;}
 .doctor-section .heading{
     padding-bottom: 20px;
-    padding-top: 90px;
 }
 .doctor-box{
     
@@ -443,7 +498,7 @@ transition: .5s ease;
 
 /* our-service-page */
 .our-service-page{
-    padding-top: 120px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .our-service-page .heading{}
@@ -477,7 +532,6 @@ overflow: hidden;
     
 }
 .our-service-page{
-    
 }
 .gallery{
     padding-top: 100px !important;
@@ -607,7 +661,6 @@ padding: 10px 10px;
     margin-bottom: -.5rem;
 }
 .doctor-section .heading2{
-    padding-top: 50px;
 }
 /*custom class end*/
 .bangla-article{
@@ -637,7 +690,7 @@ padding: 10px 10px;
      background: url(../images/123.png) no-repeat;
      background-size: cover;
      height: 100vh;
-     padding: 120px 0;
+     padding-top: 20px;
 }
 .contac-us h1{
     color: red;
