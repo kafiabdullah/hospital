@@ -1,6 +1,12 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 
 @media (max-width: 320px) {
+    .adress{
+    padding-top: 0;
+}
+    .adress span{
+        border: none;
+    }
     .bot-content h2{
     font-size: 16px;
 }
@@ -27,7 +33,7 @@
         border: none;
     }
     .service:hover{
-        height: 95%;
+        height: 90%;
     }
     .service{
     height: 95%;
@@ -55,6 +61,12 @@ footer {
 }
 
 @media (min-width: 321px) and (max-width: 412px) {
+    .adress{
+    padding-top: 0;
+}
+    .adress span{
+        border: none;
+    }
     .bot-content h2{
     font-size: 16px;
 }
@@ -80,10 +92,10 @@ footer {
         border: none;
     }
     .service:hover{
-        height: 95%;
+        height: 90%;
     }
     .service{
-    height: 95%;
+    height: 90%;
 }
     .header-img{}
     .header-img img{
@@ -107,6 +119,12 @@ margin: 0px 80px;
 }
 
 @media (min-width: 413px) and (max-width: 575px) {
+    .adress{
+    padding-top: 0;
+}
+    .adress span{
+        border: none;
+    }
     .bot-content h2{
     font-size: 17px;
 }
@@ -130,10 +148,10 @@ margin: 0px 80px;
         border: none;
     }
     .service:hover{
-        height: 95%;
+        height: 90%;
     }
     .service{
-    height: 95%;
+    height: 90%;
 }
    .header-img{}
 .header-img img{
@@ -161,15 +179,10 @@ margin: 0px 100px;
 /*Small devices (landscape phones, 576px and up)*/
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .overlay-text{}
-    .doctor-box{}
-    .bot-content h2{}
-    .bot-content p{}
-    .bot-content span{}
-    .adv-content h2{}
-    .adv-content p{}
-    .adv-content span{}
-    .our-service-page{}
+    .adress{}
+    .adress span{
+        border: none;
+    }
     .associates{
         border: none;
     }
@@ -226,7 +239,7 @@ footer {
     .associates{
     }
     .service:hover{
-        height: 95%;
+        height: 90%;
     }
     .service{
     height: 95%;
@@ -269,7 +282,7 @@ margin: 0px 250px;
     height: 170px;
 }
     .service:hover{
-        height: 95%;
+        height: 90%;
     }
     .service{
     height: 95%;
