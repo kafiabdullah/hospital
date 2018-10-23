@@ -56,21 +56,11 @@ header{
     transition: all .5s ease;
     display: none;
 }
-/* .home-menu ul li ul:hover{
-    visibility: visible;
-    opacity: 1;
-    display: block;
-}
-.home-menu ul li ul li{
-    clear: both;
-    width: 100%;
-}
-.home-menu ul li ul li a:hover{}
-.home-menu ul li ul li a{list-style: none;text-decoration: none;margin: 0 0;} */
- .dropdown{
+
+ /* .dropdown{
 }
   .dropdown .dropdown-menu{
-    /* top: 60px; */
+   
     background: #f8f9fa;
 }
   .dropdown .dropdown-menu .dropdown-item{
@@ -78,7 +68,7 @@ header{
     line-height: 2;
 }
   .dropdown .dropdown-menu .dropdown-item a{}
-
+ */
 .helpline{}
 .helpline img{
     width: 165px;
@@ -287,7 +277,7 @@ footer .heading{}
 /* footer */    
 
 .service-charge{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .service-charge .heading{
@@ -740,3 +730,6 @@ left: 21px;
 right: 0px;
 }
 /*contac-us*/
+
+
+/* navbar */

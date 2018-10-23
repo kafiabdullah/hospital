@@ -1,11 +1,15 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 
 @media (max-width: 320px) {
+    .contac-us{
+    padding-top: 0 !important;
+}
+    .contac-us h1{}
     .adress{
-    padding-top: 0;
+    padding-top: 0 !important;
 }
     .adress span{
-        border: none;
+        border: none !important;
     }
     .bot-content h2{
     font-size: 16px;
@@ -15,8 +19,8 @@
     margin: 10px 10px;
 }
     .bot-content span{
-    right: -6px;
-    height: 117px;
+    right: -5px !important;
+    height: 117px !important;
 }
     .adv-content h2{
     font-size: 15px;
@@ -25,29 +29,29 @@
     font-size: 12px;
 }
     .adv-content span{
-    right: 0;
-    height: 190px;
+    right: 0 !important;
+    height: 230px !important;
 }
     .our-service-page{}
     .associates{
-        border: none;
+        border: none !important;
     }
     .service:hover{
-        height: 90%;
+        height: 95% !important;
     }
     .service{
-    height: 95%;
+    height: 95% !important;
 }
     .header-img{}
     .header-img img{
     width: 300px;
 }
 .banner img{
-    height: 200px;
+    height: 200px !important;
 }
 
 footer {
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 
 .footer-content p{
@@ -55,17 +59,17 @@ footer {
 }
 .footer-content a{
     
-    margin: 0px 50px;
+margin: 0px 50px !important;
 }
 
 }
 
 @media (min-width: 321px) and (max-width: 412px) {
     .adress{
-    padding-top: 0;
+    padding-top: 0 !important;
 }
     .adress span{
-        border: none;
+        border: none !important;
     }
     .bot-content h2{
     font-size: 16px;
@@ -84,28 +88,28 @@ footer {
     font-size: 12px;
 }
     .adv-content span{
-    right: 0;
-    height: 150px;
+    right: 0 !important;
+    height: 185px !important;
 }
     .our-service-page{}
     .associates{
-        border: none;
+        border: none !important;
     }
     .service:hover{
-        height: 90%;
+        height: 95% !important;
     }
     .service{
-    height: 90%;
+    height: 95% !important;
 }
     .header-img{}
     .header-img img{
     width: 300px;
 }
 .banner img{
-    height: 250px;
+    height: 250px !important;
 }
 footer {
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 
 .footer-content p{
@@ -113,17 +117,17 @@ footer {
 }
 .footer-content a{
     
-margin: 0px 80px;
+margin: 0px 80px !important;
 }
 
 }
 
 @media (min-width: 413px) and (max-width: 575px) {
     .adress{
-    padding-top: 0;
+    padding-top: 0 !important;
 }
     .adress span{
-        border: none;
+        border: none !important;
     }
     .bot-content h2{
     font-size: 17px;
@@ -131,7 +135,7 @@ margin: 0px 80px;
     .bot-content p{
     font-size: 13px;
 }
-    .bot-content span{height: 85px;}
+    .bot-content span{height: 85px !important;}
 
     .adv-content h2{
     font-size: 17px;
@@ -140,29 +144,29 @@ margin: 0px 80px;
     font-size: 13px;
 }
     .adv-content span{
-    right: 0;
-    height: 145px;
+    right: 0 !important;
+    height: 145px !important;
 }
     .our-service-page{}
     .associates{
-        border: none;
+        border: none !important;
     }
     .service:hover{
-        height: 90%;
+        height: 95% !important;
     }
     .service{
-    height: 90%;
+    height: 95% !important;
 }
    .header-img{}
 .header-img img{
     width: 401px;
 }
 .banner img{
-    height: 300px;
+    height: 300px !important;
 }
 
 footer {
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 
 .footer-content p{
@@ -170,7 +174,7 @@ footer {
 }
 .footer-content a{
     
-margin: 0px 100px;
+margin: 0px 100px !important;
 }
 
 }
@@ -212,7 +216,7 @@ footer {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .overlay-text{
-    top: 50%;
+    top: 50% !important;
 }
     .doctor-box{
     height: 90%;
@@ -224,7 +228,7 @@ footer {
     font-size: 12px;
 }
     .bot-content span{
-    right: 5px;
+    right: 5px !important;
 }
     .adv-content h2{
     font-size: 18px;
@@ -233,16 +237,16 @@ footer {
     font-size: 13px;
 }
     .adv-content span{
-    right: 3px;
-    height: 200px;
+    right: 3px !important;
+    height: 200px !important;
 }
     .associates{
     }
     .service:hover{
-        height: 90%;
+        height: 95% !important;
     }
     .service{
-    height: 95%;
+    height: 95% !important;
 }
 
     .header-img{}
@@ -250,11 +254,11 @@ footer {
     width: 720px;
 }
 .banner img{
-    height: 300px;
+    height: 300px !important;
 }
 
 footer {
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 
 .footer-content p{
@@ -262,7 +266,7 @@ footer {
 }
 .footer-content a{
     
-margin: 0px 250px;
+margin: 0px 250px !important;
 }
 .home-menu ul li a{}
 
@@ -271,6 +275,7 @@ margin: 0px 250px;
 /*Large devices (desktops, 992px and up)*/
 
 @media (min-width: 992px) and (max-width: 1134px) {
+    .home-menu ul li a{}
     .overlay-text{}
     .bot-content h2{}
     .bot-content p{}
@@ -278,8 +283,8 @@ margin: 0px 250px;
     .adv-content h2{}
     .adv-content p{}
     .adv-content span{
-    right: 1px;
-    height: 170px;
+    right: 1px !important;
+    height: 170px !important;
 }
     .service:hover{
         height: 90%;
@@ -288,18 +293,18 @@ margin: 0px 250px;
     height: 95%;
 }
     .banner img{
-    height: 350px;
+    height: 350px !important;
 }
         .header-img{}
         .header-img img{
     width: 970px;
 }
 .home-menu ul li a{
-    font-size: 12px;
+    font-size: 12px !important;
 }
 
 footer {
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 
 .footer-content p{
@@ -307,7 +312,7 @@ footer {
 }
 .footer-content a{
     
-margin: 0px 350px;
+margin: 0px 350px !important;
 }
 }
 
